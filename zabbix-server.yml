@@ -1,0 +1,11 @@
+---
+- name: Install Zabbix Server
+  hosts: zabbix
+  gather_facts: no
+  vars:
+    database_type: mysql
+    database_type_long: mysql
+
+  roles:
+    - dj-wasabi.zabbix-server
+      
