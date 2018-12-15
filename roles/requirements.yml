@@ -1,0 +1,10 @@
+---
+- name: apache
+  version: master
+  src: geerlingguy.apache
+- name: mysql
+  version: master
+  src: geerlingguy.mysql
+- name: postgresql
+  version: master
+  src: geerlingguy.postgresql
